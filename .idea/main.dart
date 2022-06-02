@@ -1,10 +1,17 @@
-int a = 2;
+int a = 1;
 
 
 void main() {
-  if (a > 1) {
-    print("yes");
-  } else {
-    print("fard");
+  for (int i = 0; i < 32434785623487; i++) {
+    if (a > 3245) {
+      print("yes");
+      print(a);
+      a -= 1;
+
+    } else {
+      print("no");
+      print(a);
+      a += 4534;
+    }
   }
 }
