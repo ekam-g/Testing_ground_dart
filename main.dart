@@ -33,7 +33,7 @@ class addingDemo {
   int a = 1;
   int b = 3;
   addingDemo() {
-   int c = add(a, b);
-    p("$c");
+   b = add(a, b);
+    p("$b");
   }
 }
