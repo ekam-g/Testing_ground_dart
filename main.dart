@@ -28,12 +28,10 @@ class code {
   }
 }
 
-
 class addingDemo {
   int a = 1;
-  int b = 3;
   addingDemo() {
-   b = add(a, b);
-    p("$b");
+   a = add(2, 3);
+    p("$a");
   }
 }
