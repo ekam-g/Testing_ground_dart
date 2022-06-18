@@ -1,17 +1,16 @@
 int a = 1;
-
+int b = 5;
 
 void main() {
-  for (int i = 0; i < 32434785623487; i++) {
-    if (a > 3245) {
-      print("yes");
-      print(a);
-      a -= 1;
-
-    } else {
-      print("no");
-      print(a);
-      a += 4534;
+  for (int i = 0; i < 10000000; i += 1) {
+    print("i = $i ");
+    while (b == 5) {
+      print("b = $b ");
+      if (i == 50000) {
+        print("worked");
+        return;
+      }
+      break;
     }
   }
 }
