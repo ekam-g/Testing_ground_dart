@@ -1,13 +1,13 @@
 import 'testingcross.dart';
 
-int a = 1;
-int b = 0;
 
 void main() {
   code();
   addingDemo();
-  p("done");
 }
+
+int a = 1;
+int b = 0;
 
 class code {
   code() {
