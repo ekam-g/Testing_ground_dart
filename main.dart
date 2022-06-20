@@ -2,8 +2,9 @@ import 'testingcross.dart';
 
 
 void main() {
-  code();
-  addingDemo();
+  // code();
+  // addingDemo();
+  whileTest();
 }
 
 int a = 1;
@@ -35,3 +36,14 @@ class addingDemo {
     p("$a");
   }
 }
+class whileTest {
+  whileTest() {
+    int i = 0;
+    while (i < 10) {
+      p("i = $i ");
+      i += 1;
+    }
+  }
+}
+
+
