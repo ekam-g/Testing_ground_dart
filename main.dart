@@ -1,10 +1,15 @@
+import 'new_ai_idea.dart';
 import 'testingcross.dart';
 
 
 void main() {
   // code();
   // addingDemo();
-  whileTest();
+  // whileTest();
+  String cool = "that was a very nice test your mug head";
+  double data = 0.0;
+  data = ai(cool);
+  print(data);
 }
 
 int a = 1;
