@@ -1,0 +1,16 @@
+name: newtify
+description: >-
+  Have you been turned into a newt?  Would you like to be?
+  This package can help. It has all of the
+  newt-transmogrification functionality you have been looking
+  for.
+version: 1.2.3
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies: { string_similarity: ^2.0.0 }
+
+
+dev_dependencies:
+  test: '>=1.15.0 <2.0.0'
