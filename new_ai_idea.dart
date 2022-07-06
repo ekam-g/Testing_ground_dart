@@ -1,5 +1,10 @@
 import 'package:string_similarity/string_similarity.dart';
 
+extension on String {
+  List<String> splitByLength(int length) =>
+      [substring(0, length), substring(length)];
+}
+
 double aiMany(String words, String mode) {
   List PassivePhrase = [
     'not good'
@@ -51,13 +56,17 @@ double aiMany(String words, String mode) {
   List Exeptions = ['next time', 'your good', 'work on'];
   double Score = 0.0;
   List list;
+  List whatWord = words.splitByLength(100);
   if (mode == "pas") {
     list = PassivePhrase;
-    for (var i = 0; i < list.length; i++) {
-      print(words.similarityTo(list[i]));
-      print (list[i]);
-      if (words.similarityTo(list[i]) > 0.15) {
-        Score += 1.0;
+    for (var x = 0; x < whatWord.length; x++) {
+      String word = whatWord[x];
+      for (var i = 0; i < list.length; i++) {
+        print(word.similarityTo(list[i]));
+        print(list[i]);
+        if (word.similarityTo(list[i]) > 0.30) {
+          Score += 1.0;
+        }
       }
     }
   }
