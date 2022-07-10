@@ -1,4 +1,3 @@
-import 'new_ai_idea.dart';
 import 'testingcross.dart';
 
 
@@ -6,8 +5,6 @@ void main() {
   // code();
   // addingDemo();
   // whileTest();
-  String cool = "oh wow you are Incompetent and trash I didn't know you meant now asd sdfA SFDG AD GF FD G SDF G SDF GS DF GDS F G SDF G SDF ASDF ASD GSAF GAAFDS G ADF GSDFHSGFDHDGFH DFGHDFGHFGHDFGHDFG HSDGFG ADFG DFSGDFGFGSDF GSDFGDFGF SF HSDFHGSDF GSD FG SDFG SDd sdf asdfasd f asdf sd f and f sd f pdf and f and f ";
-  print(aiMany(cool, "pas"));
 
 }
 
