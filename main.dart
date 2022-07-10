@@ -1,3 +1,4 @@
+import 'dartCli.dart';
 import 'testingcross.dart';
 
 
@@ -5,7 +6,7 @@ void main() {
   // code();
   // addingDemo();
   // whileTest();
-
+  cli();
 }
 
 int a = 1;
