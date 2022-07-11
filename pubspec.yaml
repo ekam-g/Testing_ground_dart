@@ -1,0 +1,9 @@
+name: textforDart
+description: Just a place to practice
+version: 0.0.1
+
+#dependencies:
+#  crypto: ^2.0.6
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
